@@ -201,6 +201,7 @@ li.portfolio-item{
     border-radius: 4px;
     background: #f4f4fd;
     padding: 24px 100px;
+    margin-bottom: 8px;
 }
 .portfolio-icon {
     width: 64px;
@@ -297,6 +298,7 @@ li.portfolio-item{
     color: #434455;
     margin: 0;
 }
+
 /* ЧЕТВЕРТАЯ СЕКИЯ */
 .container-main-ourportfolio{
     /* gap: 72px; */
