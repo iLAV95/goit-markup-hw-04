@@ -316,10 +316,10 @@ li.portfolio-item{
             justify-content: center;
             align-items: center;
 }
-.contacts-info-container{
+/* .contacts-info-container{
         width: 16px;
         height: 16px;
-}
+} */
 
 .contacts-info-link {
     display: flex;
