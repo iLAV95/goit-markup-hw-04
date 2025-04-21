@@ -127,12 +127,13 @@ a.list-header:hover, a.list-header:focus{
 }
 /* ПЕРВАЯ СЕКЦИЯ */
 .studio{
-    
+    max-width: 1440px;
+    margin: auto;
     padding: 188px 0; 
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url("../images/peopleoffice.jpg");
     background-repeat: no-repeat;
-    background-size: 1440px auto;
+    background-size: cover;
     background-position: center;  
     border: 1px solid #000;  
     background-color: #2e2f42;
@@ -173,7 +174,8 @@ a.list-header:hover, a.list-header:focus{
     border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); 
     border: 0;  
-    min-width: 169px;   
+    min-width: 169px; 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 
 .button:focus, .button:hover{
