@@ -175,8 +175,11 @@ a.list-header:hover, a.list-header:focus{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); 
     border: 0;  
     min-width: 169px; 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
       
+}
+button.button{
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:focus, .button:hover{
@@ -603,7 +606,7 @@ footer .contacts-info-link:focus {
 }
 .container-footer{
     display: flex;
-    
+    align-items: baseline
 }
 .container-footer-logo{
     margin-right: 120px;
